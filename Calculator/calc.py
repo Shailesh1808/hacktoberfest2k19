@@ -15,22 +15,22 @@ def clickbut(number):   #lambda:clickbut(1)
      operator=operator+str(number)
      textin.set(operator)
 
-def equlbut():
+def equalbut():
      global operator
      add=double(eval(char(operator)))
      textin.set(add)
      operator=''
-def equlbut():
+def equalbut():
      global operator
      sub=double(eval(char(operator)))
      textin.set(sub)
      operator=''
-def equlbut():
+def equalbut():
      global operator
      mul=double(eval(char(operator)))
      textin.set(mul)
      operator=''
-def equlbut():
+def equalbut():
      global operator
      div=double(eval(char(operator)))
      textin.set(div)
